@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    height: 200vh;
+    background-color: rgb(0, 173, 216);
+}
+#header{
+    margin: 1rem;
+    height: 4rem;
+    display: grid;
+    grid-template-columns: 20% auto;
+}
+#logo
+{
+    text-shadow: 4px 4px 1px black;
+}
+#menubar
+{
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto 120px 120px 120px 120px;
+
+}
+
+#mn, #mo, #mp, #mq
+{
+    margin: 2px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: rgb(201, 201, 201);
+    box-shadow: 5px 5px 5px black , -5px -5px 5px rgb(248, 248, 248);
+
+}
+#go
+{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding-top: 2px;
+}
+/* 
+#menubar> #one , #two, #three , #other{
+    margin: 10px;cursor: pointer;
+    text-align: right;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: rgb(82, 82, 82);
+    box-shadow: 5px 5px 5px black , -5px -5px 5px rgb(248, 248, 248);
+} */
+#homee
+{
+    text-decoration: none;
+    color: white;
+    
+}
+#contact
+{
+    text-decoration: none;
+    color: white;
+}
+#home 
+{
+    height: auto;
+    width: 120px; 
+    display: flex;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(73, 73, 73);
+    box-shadow: 5px 5px 5px black , -5px -5px 5px rgb(248, 248, 248);
+}
+#input{
+    float: right;
+    height: 3rem;
+    width: 10rem;
+    margin: 1rem;
+    display: flex;
+    cursor: pointer;
+    border-radius:20px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(201, 201, 201);
+    box-shadow: 5px 5px 5px black , -5px -5px 5px rgb(248, 248, 248);
+}
+#math
+{
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+#myinfo
+{
+    top: 4rem;
+    width: 90vw;
+    height: auto;
+    margin: 2rem;
+    opacity: 70%;
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    border-radius: 20px;
+    background-color:black;
+    backdrop-filter: blur(5px);
+    color: rgb(255, 255, 255);
+}
+#pra
+{
+    margin-left: 10px;
+}
+.two1
+{
+    width: 90vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+
+}
+
+#one >a 
+{
+    text-decoration: none;
+    color: lightyellow;
+    
+}
+#menubar > div
+{
+    color: lightyellow;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+#cross
+{
+    left: 84vw;
+    width: 2rem;
+    height: 2rem;
+    font-size: 2rem;
+    cursor: pointer;
+    background: none;
+    position: relative;
+}
+/* #other
+{
+
+} */
